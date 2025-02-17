@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trina Xavier Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="#about-section">Trina Xavier</a>
+            </div>
+            <div class="right">
+                <a href="#about-section">About</a>
+                <!-- <a href="#experience-section">Experience</a> -->
+                <a href="#projects-section">Projects</a>
+                <a href="#work-experience-section">Work Experience</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#leave-message-section">Leave a Message!</a>
+            </div>
+        </nav>
+    </header>
+    <section id="about-section">
+        <h2>Hey World, I'm Trina!</h2>
+        <div class="headshot">
+            <picture>
+                <source srcset="images/image1.jpg" type="image/webp">
+                <img src="images/image1.jpg" alt="headshot">
+            </picture>
+        </div>
+        <div class="bio">
+            <p>
+                Hey! I'm Trina, a recent UMASSD graduate passionate about data science and AI
+                with a background in data science and electrical and communication engineering, I excel at fine-tuning models, enjoy data storytelling, and push the boundaries of AI applications.
+            </p>
+            <br>       
+            <p>
+                Beyond academics, I’m deeply committed to community engagement, volunteering to drive meaningful impact. I also find balance through yoga, weightlifting, and reading, constantly expanding both mind and body.
+            </p>
+        </div>
+        <div class="social-links">
+    
+            <a href="https://x.com/trinaxavier06" target="_blank">
+                <i class="fa-brands fa-square-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/trina-xavier-2ab070201/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/trinaxavier2001" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="TrinaXavierResume2025.pdf" download="Trina_Xavier_Resume.pdf">
+                <i class="fa-solid fa-file-pdf"></i>
+            </a>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="projects-section">
+        <h2>Projects</h2>
+    
+        <!-- Software Projects Subsection -->
+        <div class="project-subsection">
+            <h3>Software</h3>
+            <div #swiperRef="" class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://github.com/trinaxavier2001/AI-Model-Development-for-English-Dialects" target="blank" class="project-box">
+                        <picture>
+                            <source srcset="images/voice.webp" type="image/webp">
+                            <img src="images/voice.png" alt="AI-Powered Dialect Classification" style="width: 110px; height: auto;">
+                        </picture>
+                        
+                        <h4>AI-Powered Dialect Classification</h4>
+                        <h5><em>Deep Learning & NLP</em></h5>
+                        <p>Developed a Wav2Vec2-based AI model for English dialect classification, achieving 90%+ accuracy with advanced audio feature extraction for forensic and voice-based AI applications.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/trinaxavier2001/HospitalManagementSytem" target="blank" class="project-box">
+                        <picture>
+                            <source srcset="images/hospital.webp" type="image/webp">
+                            <img src="images/hospital.webp" alt="hospital" style="width: 110px; height: auto;">
+                        </picture>
+                        <h4>Hospital Database Management System</h4>
+                        <h5><em>MongoDB, Python, Flask & JavaScript</em></h5>
+                        <p>Developed a MongoDB-based system for patient management, scheduling, and records storage with CRUD functionality. Automated ETL pipelines, boosting data accuracy by 30%.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/trinaxavier2001/Parallelizing-3D-Particle-Diffusion-Using-Monte-Carlo-Simulations" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/monte.webp" type="image/webp">
+                            <img src="images/monte.webp" alt="Github Issues" style="width: 110px; height: auto;">
+                        </picture>
+                        <h4>GPU-Accelerated 3D Particle Diffusion</h4>
+                        <h5><em>Python,Scientific Computing, GPU Acceleration</em></h5>
+                        <p>Developed GPU-accelerated Monte Carlo simulations to solve the 3D diffusion equation, achieving a 49x speedup, validated for pollutant dispersion applications.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/trinaxavier2001/California-Housing-Price-Prediction-Model" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/cali.webp" type="image/webp">
+                            <img src="images/cali.webp" alt="Chibi Luffy" style="width: 110px; height: auto;">
+                        </picture>
+                        <h4>California Housing Price Prediction Model</h4>
+                        <h5><em>Python, Scikit-Learn, Linear Regression, Data Preprocessing</em></h5>
+                        <p>Developed a housing price prediction model using Scikit-Learn with linear regression, incorporating data preprocessing and deployment strategies for production.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/trinaxavier2001/fatal-police-shooting/tree/main" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/police.webp" type="image/webp">
+                            <img src="images/police.webp.png" alt="Functional Adventure" style="width: 110px; height: auto;">
+                        </picture>
+                        <h4>Statistical Analysis of Age Differences in Police Shootings</h4>
+                        <h5><em>Python, Hypothesis Testing, Statistical Analysis</em></h5>
+                        <p>Monte Carlo simulation found black individuals 7.22 years younger on average in fatal police shootings, with a p-value of 0.0, indicating no significance.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/trinaxavier2001/Parallelizing-3D-Particle-Diffusion-Using-Monte-Carlo-Simulations" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/credit.webp" type="image/webp">
+                            <img src="images/credit.webp" alt="Github Issues" style="width: 110px; height: auto;">
+                        </picture>
+                        <h4>Data-Driven Credit Card Customer Retention</h4>
+                        <h5><em>Tableau, Data Visualization, Business Analytics</em></h5>
+                        <p>Developed a Tableau-driven retention model, using segmentation analytics to enhance engagement and reduce churn in credit card users.</p>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Design Projects Subsection -->
+    <section id="work-experience-section">
+        <h3>Work Experience & Volunteering</h3>
+        
+            
+        <div #swiperRef="" class="swiper card-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://www.umassd.edu/directory/yli3/" target="blank" class="project-box">
+                        <picture>
+                            <source srcset="images/mis.webp" type="image/webp">
+                            <img src="images/mis.png" alt="Tissue Patch" style="width: 110px; height: auto;">
+                        </picture>
+                        <h4>Graduate Teaching Assistant</h4>
+                        <h5><em>Applied Business Analytics and Info Visualization</em></h5>
+                        <p>Guided students in Python, Tableau, SQL, and Excel, focusing on data analysis, modeling, storytelling, and business decision-making.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.umassd.edu/leduc/get-involved/" target="blank" class="project-box">
+                        <picture>
+                            <source srcset="images/leduc.jpg" type="image/webp">
+                            <img src="images/leduc.jpg" alt="12 Week Year" style="width: 220px; height: auto">
+                        </picture>
+                        <h4>Civic Engagement Data Analyst & Coordinator</h4>
+                        <h5><em>Leduc center for civic engagement</em></h5>
+                        <p>Streamlined volunteer scheduling and performance tracking for 200+ volunteers using SQL, Power BI, and JIRA, improving data accuracy by 30%.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.umassd.edu/arc/" target="blank" class="project-box">
+                        <picture>
+                            <source srcset="images/stem.webp" type="image/webp">
+                            <img src="images/stem.webp" alt="MPCS Redesign" style="width: 110px; height: auto">
+                        </picture>
+                        <h4>Academic Tutor & STEM Mentor </h4>
+                        <h5><em>Academic Resource Center</em></h5>
+                        <p>Enhanced STEM student success with tailored mentoring, boosting performance by 20% and optimizing lab operations to support 100+ students weekly.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="images/data.png" target="_blank" class="project-box">
+                        
+                        <picture>
+                           <source srcset="images/iit.webp" type="image/webp">
+                           <img src="iit.png" alt="Wasted Ocean Mural" style="width: 110px; height: auto">
+                        </picture>
+                        <h4>Data Analyst Intern</h4>
+                        <h5><em>IIT Tirupati</em></h5>
+                        <p>Engineered XGBoost and ARIMA models for precise inventory forecasting and launched dynamic Tableau/QuickSight dashboards, boosting stock accuracy by 25% and streamlining monitoring by 30%.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://crowddoing.world/" target="_blank" class="project-box">
+                        
+                        <picture>
+                           <source srcset="images/crowd.png" type="image/webp">
+                           <img src="crowd.png" alt="Wasted Ocean Mural" style="width: 110px; height: auto">
+                        </picture>
+                        <h4>Volunteer Scrum Master--Driving Nature Connection and Public Health</h4>
+                        <h5><em>Crowd Doing</em></h5>
+                        <p>Optimized Agile workflows with data-driven dashboards, enhancing collaboration for events such as Solarpunkification Gallery and Nature Counter etc.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://ymcasouthcoast.org/programs/sharing-the-harvest/" target="_blank" class="project-box">
+                        
+                        <picture>
+                           <source srcset="images/share.png" type="image/webp">
+                           <img src="share.png" alt="Wasted Ocean Mural" style="width: 180px; height: 110px">
+                        </picture>
+                        <h4>Student Leader & Volunteer</h4>
+                        <h5><em>YMCA Southcoast Share the Harvest Farm</em></h5>
+                        <p>Led community-driven initiatives to supply fresh produce to local food drives and free food camps, promoting food security and sustainable agriculture.</p>
+                    </a>
+                </div>
+            </div>
+        
+        </div>
+    </section>    
+    <div class="divider"></div>
+    <section id="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="devicon-c-plain-wordmark"></i>
+            <i class="devicon-fastapi-plain"></i>
+            <i class="fa-brands fa-linux"></i>
+            <i class="fa-brands fa-git-alt"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-database"></i>
+            <i class="devicon-mongodb-plain"></i>
+            <i class="devicon-matlab-plain"></i>
+            <i class="devicon-jira-plain"></i>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i> 
+            
+            
+            <i class="fa-solid fa-network-wired"></i> <!-- For REST API -->
+           
+            
+        </div>
+    </section>
+    <div class="divider"></div>
+    
+    <section id="leave-message-section">
+        <h2>Leave a Message!</h2>
+        <p>Coming soon :)</p>
+    </section>
+    
+    <!-- Swiper JS -->
+    <script src="script.js"></script>
+</body>
+    
